@@ -1,0 +1,628 @@
+OPTIMALIZATION -O0
+..................
+>>>>>>>>>> test_static <<<<<<<<<
+..................
+STATIC TABLE
+create static table and then fill
+real	30.000000us
+user	0.000000us
+sys	0.000000us
+...................
+find element in static table and delete it
+real	6.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and add blocks to static table
+real	4.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and then add alternetely blocks to static table
+real	10.000000us
+user	0.000000us
+sys	0.000000us
+...................
+
+DYNAMIC TABLE
+create dynamic table and then fill
+real	15.000000us
+user	0.000000us
+sys	0.000000us
+...................
+find element in dynamic table and delete it
+real	5.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and add blocks to dynamic table
+real	4.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and then add alternetely blocks to dynamic table
+real	11.000000us
+user	0.000000us
+sys	0.000000us
+...................
+
+
+
+>>>>>>>>>>test_shared <<<<<<<<<
+..................
+STATIC TABLE
+create static table and then fill
+real	29.000000us
+user	0.000000us
+sys	0.000000us
+...................
+find element in static table and delete it
+real	8.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and add blocks to static table
+real	4.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and then add alternetely blocks to static table
+real	13.000000us
+user	0.000000us
+sys	0.000000us
+...................
+
+DYNAMIC TABLE
+create dynamic table and then fill
+real	17.000000us
+user	0.000000us
+sys	0.000000us
+...................
+find element in dynamic table and delete it
+real	6.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and add blocks to dynamic table
+real	4.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and then add alternetely blocks to dynamic table
+real	14.000000us
+user	0.000000us
+sys	0.000000us
+...................
+
+OPTIMALIZATION -O1
+..................
+>>>>>>>>>> test_static <<<<<<<<<
+..................
+STATIC TABLE
+create static table and then fill
+real	46.000000us
+user	0.000000us
+sys	0.000000us
+...................
+find element in static table and delete it
+real	7.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and add blocks to static table
+real	6.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and then add alternetely blocks to static table
+real	16.000000us
+user	0.000000us
+sys	0.000000us
+...................
+
+DYNAMIC TABLE
+create dynamic table and then fill
+real	24.000000us
+user	0.000000us
+sys	0.000000us
+...................
+find element in dynamic table and delete it
+real	6.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and add blocks to dynamic table
+real	5.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and then add alternetely blocks to dynamic table
+real	16.000000us
+user	0.000000us
+sys	0.000000us
+...................
+
+
+
+>>>>>>>>>>test_shared <<<<<<<<<
+..................
+STATIC TABLE
+create static table and then fill
+real	48.000000us
+user	0.000000us
+sys	0.000000us
+...................
+find element in static table and delete it
+real	7.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and add blocks to static table
+real	3.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and then add alternetely blocks to static table
+real	9.000000us
+user	0.000000us
+sys	0.000000us
+...................
+
+DYNAMIC TABLE
+create dynamic table and then fill
+real	14.000000us
+user	0.000000us
+sys	0.000000us
+...................
+find element in dynamic table and delete it
+real	7.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and add blocks to dynamic table
+real	3.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and then add alternetely blocks to dynamic table
+real	11.000000us
+user	0.000000us
+sys	0.000000us
+...................
+
+OPTIMALIZATION -O2
+..................
+>>>>>>>>>> test_static <<<<<<<<<
+..................
+STATIC TABLE
+create static table and then fill
+real	36.000000us
+user	0.000000us
+sys	0.000000us
+...................
+find element in static table and delete it
+real	7.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and add blocks to static table
+real	4.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and then add alternetely blocks to static table
+real	11.000000us
+user	0.000000us
+sys	0.000000us
+...................
+
+DYNAMIC TABLE
+create dynamic table and then fill
+real	17.000000us
+user	0.000000us
+sys	0.000000us
+...................
+find element in dynamic table and delete it
+real	4.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and add blocks to dynamic table
+real	4.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and then add alternetely blocks to dynamic table
+real	12.000000us
+user	0.000000us
+sys	0.000000us
+...................
+
+
+
+>>>>>>>>>>test_shared <<<<<<<<<
+..................
+STATIC TABLE
+create static table and then fill
+real	30.000000us
+user	0.000000us
+sys	0.000000us
+...................
+find element in static table and delete it
+real	6.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and add blocks to static table
+real	3.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and then add alternetely blocks to static table
+real	9.000000us
+user	0.000000us
+sys	0.000000us
+...................
+
+DYNAMIC TABLE
+create dynamic table and then fill
+real	14.000000us
+user	0.000000us
+sys	0.000000us
+...................
+find element in dynamic table and delete it
+real	4.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and add blocks to dynamic table
+real	4.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and then add alternetely blocks to dynamic table
+real	11.000000us
+user	0.000000us
+sys	0.000000us
+...................
+
+OPTIMALIZATION -O3
+..................
+>>>>>>>>>> test_static <<<<<<<<<
+..................
+STATIC TABLE
+create static table and then fill
+real	25.000000us
+user	0.000000us
+sys	0.000000us
+...................
+find element in static table and delete it
+real	5.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and add blocks to static table
+real	4.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and then add alternetely blocks to static table
+real	10.000000us
+user	0.000000us
+sys	0.000000us
+...................
+
+DYNAMIC TABLE
+create dynamic table and then fill
+real	12.000000us
+user	0.000000us
+sys	0.000000us
+...................
+find element in dynamic table and delete it
+real	4.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and add blocks to dynamic table
+real	4.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and then add alternetely blocks to dynamic table
+real	9.000000us
+user	0.000000us
+sys	0.000000us
+...................
+
+
+
+>>>>>>>>>>test_shared <<<<<<<<<
+..................
+STATIC TABLE
+create static table and then fill
+real	26.000000us
+user	0.000000us
+sys	0.000000us
+...................
+find element in static table and delete it
+real	6.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and add blocks to static table
+real	4.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and then add alternetely blocks to static table
+real	10.000000us
+user	0.000000us
+sys	0.000000us
+...................
+
+DYNAMIC TABLE
+create dynamic table and then fill
+real	14.000000us
+user	0.000000us
+sys	0.000000us
+...................
+find element in dynamic table and delete it
+real	5.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and add blocks to dynamic table
+real	4.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and then add alternetely blocks to dynamic table
+real	18.000000us
+user	0.000000us
+sys	0.000000us
+...................
+
+OPTIMALIZATION -O4
+..................
+>>>>>>>>>> test_static <<<<<<<<<
+..................
+STATIC TABLE
+create static table and then fill
+real	24.000000us
+user	0.000000us
+sys	0.000000us
+...................
+find element in static table and delete it
+real	5.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and add blocks to static table
+real	4.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and then add alternetely blocks to static table
+real	9.000000us
+user	0.000000us
+sys	0.000000us
+...................
+
+DYNAMIC TABLE
+create dynamic table and then fill
+real	12.000000us
+user	0.000000us
+sys	0.000000us
+...................
+find element in dynamic table and delete it
+real	4.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and add blocks to dynamic table
+real	3.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and then add alternetely blocks to dynamic table
+real	8.000000us
+user	0.000000us
+sys	0.000000us
+...................
+
+
+
+>>>>>>>>>>test_shared <<<<<<<<<
+..................
+STATIC TABLE
+create static table and then fill
+real	25.000000us
+user	0.000000us
+sys	0.000000us
+...................
+find element in static table and delete it
+real	5.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and add blocks to static table
+real	4.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and then add alternetely blocks to static table
+real	11.000000us
+user	0.000000us
+sys	0.000000us
+...................
+
+DYNAMIC TABLE
+create dynamic table and then fill
+real	13.000000us
+user	0.000000us
+sys	0.000000us
+...................
+find element in dynamic table and delete it
+real	4.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and add blocks to dynamic table
+real	4.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and then add alternetely blocks to dynamic table
+real	10.000000us
+user	0.000000us
+sys	0.000000us
+...................
+
+OPTIMALIZATION -Os
+..................
+>>>>>>>>>> test_static <<<<<<<<<
+..................
+STATIC TABLE
+create static table and then fill
+real	39.000000us
+user	0.000000us
+sys	0.000000us
+...................
+find element in static table and delete it
+real	6.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and add blocks to static table
+real	6.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and then add alternetely blocks to static table
+real	17.000000us
+user	0.000000us
+sys	0.000000us
+...................
+
+DYNAMIC TABLE
+create dynamic table and then fill
+real	16.000000us
+user	0.000000us
+sys	0.000000us
+...................
+find element in dynamic table and delete it
+real	4.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and add blocks to dynamic table
+real	4.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and then add alternetely blocks to dynamic table
+real	10.000000us
+user	0.000000us
+sys	0.000000us
+...................
+
+
+
+>>>>>>>>>>test_shared <<<<<<<<<
+..................
+STATIC TABLE
+create static table and then fill
+real	26.000000us
+user	0.000000us
+sys	0.000000us
+...................
+find element in static table and delete it
+real	6.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and add blocks to static table
+real	4.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and then add alternetely blocks to static table
+real	9.000000us
+user	0.000000us
+sys	0.000000us
+...................
+
+DYNAMIC TABLE
+create dynamic table and then fill
+real	13.000000us
+user	0.000000us
+sys	0.000000us
+...................
+find element in dynamic table and delete it
+real	4.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and add blocks to dynamic table
+real	4.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and then add alternetely blocks to dynamic table
+real	9.000000us
+user	0.000000us
+sys	0.000000us
+...................
+
+OPTIMALIZATION -Os
+..................
+>>>>>>>>>> test_static <<<<<<<<<
+..................
+STATIC TABLE
+create static table and then fill
+real	39.000000us
+user	0.000000us
+sys	0.000000us
+...................
+find element in static table and delete it
+real	6.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and add blocks to static table
+real	5.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and then add alternetely blocks to static table
+real	17.000000us
+user	0.000000us
+sys	0.000000us
+...................
+
+DYNAMIC TABLE
+create dynamic table and then fill
+real	23.000000us
+user	0.000000us
+sys	0.000000us
+...................
+find element in dynamic table and delete it
+real	5.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and add blocks to dynamic table
+real	6.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and then add alternetely blocks to dynamic table
+real	17.000000us
+user	0.000000us
+sys	0.000000us
+...................
+
+
+
+>>>>>>>>>>test_shared <<<<<<<<<
+..................

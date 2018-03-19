@@ -1,0 +1,15 @@
+create static table and then fill
+real	153.000000us
+user	0.000000us
+sys	0.000000us
+...................
+find element in static table and delete it
+real	72.000000us
+user	0.000000us
+sys	0.000000us
+...................
+delete and add blocks to static table
+real	55.000000us
+user	0.000000us
+sys	0.000000us
+...................
